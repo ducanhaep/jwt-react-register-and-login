@@ -1,0 +1,20 @@
+POST http://localhost:8000/v1/auth/register HTTP/1.1
+content-type: application/json
+
+{
+  "username":"ducanh123",
+  "password":"12353453",
+  "email":"emailte2222st@gga.com"
+}
+###
+
+POST http://localhost:8000/v1/auth/login HTTP/1.1
+content-type: application/json
+
+{
+  "username":"ducanh",
+  "password":"12353453"
+}
+
+###
+GET http://localhost:8000/v1/user/
